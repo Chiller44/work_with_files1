@@ -9,5 +9,5 @@ with open(file, 'r') as read_file:
     for word in text_file:
         count_symb += len(word)
 
-print(f'В даному тексті {count_symb} без пробілів')
+print(f'В даному тексті {count_symb} символів без пробілів')
 
